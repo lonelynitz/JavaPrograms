@@ -9,7 +9,7 @@ public class leftstar {
                 for(int k=0;k<=i;i++){
                     System.out.println("* ");
                 }
-                System.out.println();
+            
             }
         }
     }

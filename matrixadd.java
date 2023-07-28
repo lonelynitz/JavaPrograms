@@ -16,7 +16,7 @@ public class matrixadd {
         int[] a = {1,2,3,4,5};
         int[] b = {6,7,8,9};
 
-        System.out.println(matrixvalues(a,b,int[a][b]));
+        System.out.println(matrixvalues(a,b, new int[a][b]));
     }
     
 }

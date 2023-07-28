@@ -1,5 +1,3 @@
-package Looptask;
-
 public class countoccurance {
 
     public static int countoccurancea(int[] a , int s , int x){

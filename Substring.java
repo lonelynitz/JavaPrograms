@@ -1,4 +1,3 @@
-package Looptask;
 
 public class Substring {
 

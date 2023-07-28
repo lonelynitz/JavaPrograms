@@ -4,7 +4,6 @@ public class numberofpath {
     long pathfinder(int a , int b){
         rec(0, 0, a, b);
         return count;
-
     }
      void rec(int a , int b , int m , int n){
         if(a<0 || b<0 || a>=n || b>=m){

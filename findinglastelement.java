@@ -1,4 +1,3 @@
-package Looptask;
 
 import java.util.LinkedList;
 import java.util.List;

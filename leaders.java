@@ -1,10 +1,9 @@
-package Looptask;
 
 import java.util.ArrayList;
 
-public class Solution{
+public class leaders{
     //Function to find the leaders in the array.
-    static ArrayList<Integer> leaders(int arr[], int n){
+    static ArrayList<Integer> leadersz(int arr[], int n){
         
         int max =-1;
         int[] total;
