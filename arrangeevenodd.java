@@ -1,11 +1,13 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class arrangeevenodd {
     
     public static void oddeven(long[] a , int n){
 
         ArrayList<Long> alpha = new ArrayList<>();
-        alpha.sort(a);
+        Collections.sort(a);
         for(int i=0;i<a.length;i++){
             if(a[i]%2==1){
                 alpha.add(a[i]);
