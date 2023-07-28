@@ -7,7 +7,6 @@ public class arrangeevenodd {
     public static void oddeven(long[] a , int n){
 
         ArrayList<Long> alpha = new ArrayList<>();
-        Collections.sort(a);
         for(int i=0;i<a.length;i++){
             if(a[i]%2==1){
                 alpha.add(a[i]);
@@ -29,5 +28,8 @@ public class arrangeevenodd {
         long[] a ={1,2,3,9,8,7,6,5,4};
         
         oddeven(a, 0);
+        for(long b:a){
+            System.out.print(b+"");
+        }
     }
 }
